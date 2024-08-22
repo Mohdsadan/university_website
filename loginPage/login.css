@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bungee+Tint&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://erplive.rkdf.ac.in/UniversityImage/student_timeline.jpg");
+}
+
+.header {
+    /* font-family: "Anek Devanagari", sans-serif; */
+    font-family: "Bungee Tint", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right top, #051937, #1d3054, #354974, #4c6495, #6580b7, #6894ce, #69a9e3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.header img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.header h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 24px;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3f51b5;
+    padding: 8px 12px;
+    border-radius: 18px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+}
+
+.login-container input[type="submit"] {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #4a148c;
+}
+
+.login-container .captcha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container .captcha img {
+    height: 50px;
+}
+
+.login-container .captcha input {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.login-container a {
+    color: #3f51b5;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+form a {
+    font-size: x-small;
+}
